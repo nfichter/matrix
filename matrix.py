@@ -51,6 +51,7 @@ def new_matrix(rows = 4, cols = 4):
 #len(matrix[0]) = cols = num of elements in each sublist
 #len(matrix) = rows = num of lists
 
+'''
 m1 = [[1,2,3,4,5],
 	  [5,6,7,8,9],
 	  [9,10,11,12,13],
@@ -64,3 +65,4 @@ m2 = [[1,1,1,1],
 print_matrix(m1)
 print_matrix(m2)
 print_matrix(matrix_mult(m2,m1))
+'''
