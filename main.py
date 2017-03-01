@@ -5,6 +5,14 @@ screen = new_screen()
 color = [ 0, 255, 0 ]
 matrix = new_matrix()
 
+add_edge(matrix,250,250,0,450,350,0)
+add_edge(matrix,250,250,0,350,450,0)
+add_edge(matrix,250,250,0,150,450,0)
+add_edge(matrix,250,250,0,50,350,0)
+add_edge(matrix,250,250,0,50,150,0)
+add_edge(matrix,250,250,0,150,50,0)
+add_edge(matrix,250,250,0,350,50,0)
+add_edge(matrix,250,250,0,450,150,0)
 
 draw_lines( matrix, screen, color )
 display(screen)
